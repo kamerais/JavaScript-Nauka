@@ -12,9 +12,22 @@ console.log(age); // output: np. 251, jeżeli input = 25
 
 console.log(typeof (age)) // output: string
 */
-
+/*
 // konwersja na liczbę
 age = Number(age); //zamienia tekst na liczbę
 age += 1; // do liczby dodaje 1
 
 console.log(age, typeof(age)); // output: 26 (jeżeli input = 25) 'number'
+*/
+// Pokazanie różnych konwersji na tym samym przykładzie
+let x = "pizza";
+let y = "pizza";
+let z = "pizza";
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x); // output: NaN (Not a Number) 'number'
+console.log(y, typeof y); // output: pizza string
+console.log(z, typeof z); // output: true 'boolean'
