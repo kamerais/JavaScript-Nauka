@@ -15,7 +15,7 @@ let x = 3.21;
 let y = 2;
 let z;
 
-z = Math.round(x); // zaokrągla liczbę przy zasadzie, że x < 5 to w dół, a x > 5 to w górę
+z = Math.round(x); // zaokrągla liczbę przy zasadzie, że dla liczba.x jeżeli x < 5 to w dół, a x > 5 to w górę
 
 console.log(z); // output: 3
 
