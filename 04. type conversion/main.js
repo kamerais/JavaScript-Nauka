@@ -24,9 +24,9 @@ let x = "pizza";
 let y = "pizza";
 let z = "pizza";
 
-x = Number(x);
-y = String(y);
-z = Boolean(z);
+x = Number(x); // zamieniam x na liczbę
+y = String(y); // zamieniam y na string
+z = Boolean(z); // zamieniam z na prawda/fałsz (bool)
 
 console.log(x, typeof x); // output: NaN (Not a Number) 'number'
 console.log(y, typeof y); // output: pizza string
