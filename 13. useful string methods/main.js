@@ -44,13 +44,17 @@ console.log(userName.toLowerCase()); //output: kamerais
 
 console.log(userName.repeat(2)); //output: kameraiskamerais
 
-// metoda .startsWith("Literka") zwraca prawda/fałsz jeżeli pierwsza literka jest zgodna z wprowadzoną literką
+// metoda .startsWith("Literka, spacja, itp.") zwraca prawda/fałsz jeżeli pierwsza literka jest zgodna z wprowadzoną literką
 
                                 //UWAGA duże i małe litery mają znaczenie
 userName = "kamerais";
 console.log(userName.startsWith("k")); //output: true
 console.log(userName.startsWith("K")); //output: false
-// metoda .endsWith("Literka") to opozycyjne do .startsWith("Literka") 
+// metoda .endsWith("Literka, spacja, itp.") to opozycyjne do .startsWith("Literka")
 
-console.log(userName.endsWith("s")) //output: true
-console.log(userName.endsWith("S")) //output: false
+console.log(userName.endsWith("s")); //output: true
+console.log(userName.endsWith("S")); //output: false
+
+// metoda .includes("Literka, spacja, itp.") sprawdza czy tekst ma w sobie wprowadzoną literkę, spację lub itp.
+
+console.log(userName.includes(" ")); //output: false
