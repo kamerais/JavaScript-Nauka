@@ -1,0 +1,1 @@
+// string methods = pozwalają na manipulowanie i pracę z tekstem (stringiem)
