@@ -21,3 +21,6 @@ userName = "Hakunamatata";
 
 console.log(userName.indexOf("a")); //output: 1
 console.log(userName.lastIndexOf("a")); //output: 11
+
+// (nie jest to metoda wyłącznie dla tekstu, ale bardzo podobne) .length liczy ile jest liter w tekście od 1 do n
+console.log(userName.length) // output: 12
