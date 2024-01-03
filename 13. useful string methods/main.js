@@ -63,6 +63,16 @@ console.log(userName.includes(" ")); //output: false
 
 let phoneNumber = "123-456-789";
 
-phoneNumber = phoneNumber.replaceAll("-", "") //zmienna teraz to 123456789
+phoneNumber = phoneNumber.replaceAll("-", ""); //zmienna teraz to 123456789
 
-console.log(phoneNumber) //output: 123456789
+console.log(phoneNumber); //output: 123456789
+
+// metoda .padStart(do jakiego momentu, aż tekst będzie odpowiednio długi, "Literka, spacja, itp.")
+phoneNumber = "123-456-789";
+
+console.log(phoneNumber.length); //output: 11
+// Ja chce mieć go o 4 "0" większy
+phoneNumber = phoneNumber.padStart(15, "0");
+
+console.log(phoneNumber); // output: 0000123-456-789
+console.log(phoneNumber.length); //output: 15
