@@ -39,3 +39,8 @@ console.log(userName.toUpperCase()); //output: KAMERAIS
 userName.toUpperCase(); // zmieniam wszystkie literki z tekstu na drukowane
 
 console.log(userName.toLowerCase()); //output: kamerais
+
+//metoda .repeat(ile razy) powtarza tekst tyle razy ile się chce
+
+console.log(userName.repeat(2)); //output: kameraiskamerais
+
