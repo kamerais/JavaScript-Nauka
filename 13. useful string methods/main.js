@@ -23,4 +23,9 @@ console.log(userName.indexOf("a")); //output: 1
 console.log(userName.lastIndexOf("a")); //output: 11
 
 // (nie jest to metoda wyłącznie dla tekstu, ale bardzo podobne) .length liczy ile jest liter w tekście od 1 do n
-console.log(userName.length) // output: 12
+console.log(userName.length); // output: 12
+
+// metoda .trim() pozwala na usunięcie z tekstu spacji znajdujących się przed nim i po nim
+userName = "       Hakuna      Matata            ";
+
+console.log(userName.trim()); // output: Hakuna      Matata
