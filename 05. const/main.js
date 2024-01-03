@@ -1,0 +1,1 @@
+// const (stała) = zmienna, której nie można zmienić
