@@ -29,3 +29,8 @@ console.log(userName.length); // output: 12
 userName = "       Hakuna      Matata            ";
 
 console.log(userName.trim()); // output: Hakuna      Matata
+
+//metoda .toUpperCase() jeżeli chcę wszystkie litery w tekście zamienić na drukowane
+userName = "kamerais"
+
+console.log(userName.toUpperCase()); //output: KAMERAIS
