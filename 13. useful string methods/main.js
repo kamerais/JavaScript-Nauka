@@ -58,3 +58,11 @@ console.log(userName.endsWith("S")); //output: false
 // metoda .includes("Literka, spacja, itp.") sprawdza czy tekst ma w sobie wprowadzoną literkę, spację lub itp.
 
 console.log(userName.includes(" ")); //output: false
+
+// metoda .replaceAll(coś,na coś) zamienia wszystkie cosie na cosie :D
+
+let phoneNumber = "123-456-789";
+
+phoneNumber = phoneNumber.replaceAll("-", "") //zmienna teraz to 123456789
+
+console.log(phoneNumber) //output: 123456789
