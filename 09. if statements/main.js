@@ -12,6 +12,8 @@ else{ // w przeciwnym razie wykonaj ten kod
 }
 
 */
+
+/*
 let time = 13; // powiedzmy, że to czas w godzinach
 
 if (time < 12){ // jeżeli czas jest mniejszy niż godzina 12 to wykonaj ten kod
@@ -19,4 +21,14 @@ if (time < 12){ // jeżeli czas jest mniejszy niż godzina 12 to wykonaj ten kod
 }
 else{ // w przeciwnym razie wykonaj ten kod
     console.log("Good afternoon")
+}
+
+*/
+let isStudent = true; // ustawiam, że ten warunek jest prawdziwy
+
+if(isStudent){ // jeżeli zmienna isStudent jest prawdziwa to wykonaj ten kod
+    console.log("You are a student")
+}
+else{ // w przeciwnym razie wykonaj ten kod
+    console.log("You are not a student")
 }
