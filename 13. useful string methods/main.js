@@ -50,3 +50,7 @@ console.log(userName.repeat(2)); //output: kameraiskamerais
 userName = "kamerais";
 console.log(userName.startsWith("k")); //output: true
 console.log(userName.startsWith("K")); //output: false
+// metoda .endsWith("Literka") to opozycyjne do .startsWith("Literka") 
+
+console.log(userName.endsWith("s")) //output: true
+console.log(userName.endsWith("S")) //output: false
