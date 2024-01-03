@@ -67,7 +67,7 @@ phoneNumber = phoneNumber.replaceAll("-", ""); //zmienna teraz to 123456789
 
 console.log(phoneNumber); //output: 123456789
 
-// metoda .padStart(do jakiego momentu, aż tekst będzie odpowiednio długi, "Literka, spacja, itp.")
+// metoda .padStart(do jakiego momentu od początku, aż tekst będzie odpowiednio długi, "Literka, spacja, itp.")
 phoneNumber = "123-456-789";
 
 console.log(phoneNumber.length); //output: 11
@@ -75,4 +75,14 @@ console.log(phoneNumber.length); //output: 11
 phoneNumber = phoneNumber.padStart(15, "0");
 
 console.log(phoneNumber); // output: 0000123-456-789
+console.log(phoneNumber.length); //output: 15
+// metoda .padEnd(to samo tylko od końca, "Literka, spacja, itp.")
+
+phoneNumber = "123-456-789";
+
+console.log(phoneNumber.length); //output: 11
+// Ja chce mieć go o 4 "0" większy
+phoneNumber = phoneNumber.padEnd(15, "0");
+
+console.log(phoneNumber); // output: 123-456-7890000
 console.log(phoneNumber.length); //output: 15
