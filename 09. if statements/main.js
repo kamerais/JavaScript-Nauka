@@ -24,6 +24,9 @@ else{ // w przeciwnym razie wykonaj ten kod
 }
 
 */
+
+/*
+
 let isStudent = true; // ustawiam, że ten warunek jest prawdziwy
 
 if(isStudent){ // jeżeli zmienna isStudent jest prawdziwa to wykonaj ten kod
@@ -31,4 +34,24 @@ if(isStudent){ // jeżeli zmienna isStudent jest prawdziwa to wykonaj ten kod
 }
 else{ // w przeciwnym razie wykonaj ten kod
     console.log("You are not a student")
+}
+
+*/
+// Można tworzyć tzw. nested if-statements (zagnieżdżone instrukcje warunkowe)
+let age = 25;
+let hasLicense = false;
+// W Ameryce trzeba mieć przynajmniej 16 lat, żeby mieć licencję
+
+if(age >= 16){
+    console.log("You are old enough to have a license");
+
+    if(hasLicense){
+        console.log("You have your license");
+    }
+    else{
+        console.log("You do not have your license yet!")
+    }
+}
+else{
+    console.log("You are not old enough to have a license");
 }
