@@ -3,7 +3,7 @@
 */
 
 let age = window.prompt("How old are you?"); //typ string
-
+/*
 age += 1; // do stringu dodaję 1.
 
 console.log(age); // output: np. 251, jeżeli input = 25
@@ -11,3 +11,10 @@ console.log(age); // output: np. 251, jeżeli input = 25
 //Aby zobaczyć typ zmiennej możemy użyć funkcji wbudawanej typeof(zmienna)
 
 console.log(typeof (age)) // output: string
+*/
+
+// konwersja na liczbę
+age = Number(age); //zamienia tekst na liczbę
+age += 1; // do liczby dodaje 1
+
+console.log(age, typeof(age)); // output: 26 (jeżeli input = 25) 'number'
