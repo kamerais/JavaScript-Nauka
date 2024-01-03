@@ -78,7 +78,8 @@ co za tym idzie warunek age >= 100 nigdy by się nie wykonał, bo age = 101 jest
 */
 
 /*
-else if(age == 0){
+
+else if(age == 0){ // jeżeli wiek jest równy 0 wykonaj ten kod
     console.log("You can't enter. You were just born.")
 }
 else if(age >= 18){ // jeżeli wiek jest większy bądź równy 18 to wykonaj ten kod
@@ -92,3 +93,29 @@ else{ // w przeciwnym wypadku wykonaj ten kod
 }
 
 */
+
+const myText = document.getElementById("myText");
+const submitButton = document.getElementById("mySubmit");
+const resultElement = document.getElementById("resultElement");
+let age;
+
+submitButton.onclick = function(){
+    age = myText.value;
+    age = Number(age);
+
+    if(age >= 100){ // jeżeli wiek jest większy bądź równy 100 to wykonaj ten kod
+        resultElement.textContent = "You are too old to enter this site";
+    }
+    else if(age == 0){ // jeżeli wiek jest równy 0 wykonaj ten kod
+        resultElement.textContent = "You can't enter. You were just born.";
+    }
+    else if(age >= 18){ // jeżeli wiek jest większy bądź równy 18 to wykonaj ten kod
+        resultElement.textContent = "You are old enough to enter this site";
+    }
+    else if(age < 0){ // jeżeli wiek jest mniejszy od 0 to wykonaj ten kod
+        resultElement.textContent = "Your age can't be below 0";
+    }
+    else{ // w przeciwnym wypadku wykonaj ten kod
+        resultElement.textContent = "You must be 18+ to enter this site";
+    }
+}
