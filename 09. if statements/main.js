@@ -60,18 +60,24 @@ else{
 }
 
 */
+
+/*
+
 // jak działają else if statements
 let age = 101;
 
 if(age >= 100){ // jeżeli wiek jest większy bądź równy 100 to wykonaj ten kod
     console.log("You are too old to enter this site");
 }
+*/
+
 /*
 dlaczego zamieniłem age >= 18 z age >= 100 miejscami?
 Warunki są czytane od góry do dołu. Jakbym dał age >= 18 pierwsze to warunek zostałby spełniony
 co za tym idzie warunek age >= 100 nigdy by się nie wykonał, bo age = 101 jest większe od 18
 */
 
+/*
 else if(age == 0){
     console.log("You can't enter. You were just born.")
 }
@@ -84,3 +90,5 @@ else if(age < 0){ // jeżeli wiek jest mniejszy od 0 to wykonaj ten kod
 else{ // w przeciwnym wypadku wykonaj ten kod
     console.log("You must be 18+ to enter this site");
 }
+
+*/
