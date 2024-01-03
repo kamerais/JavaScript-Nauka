@@ -14,3 +14,21 @@
 let x = 100;
 
 console.log(x); // To też wyświetli 100 (Trzeba pamiętać, że nie można zadeklarować 2 razy tej samej zmiennej)
+
+// Rodzaje wartości
+
+// Integer/int - liczba całkowita
+let age = 25;
+console.log(age);
+
+// Float - zmiennoprzecinkowe
+let gpi = 2.1;
+console.log(gpi);
+
+// String - nitki (tekst)
+let firstName = "kamerais";
+console.log(`Twoje imie to ${firstName}`) // tutaj użyłem ``, żeby móc włożyć moją zmienną od razu w zdanie
+                                          // za pomocą ${zmienna} (działa dla dowolnych wartości zmiennej)
+// Bool - Prawda/Fałsz
+let bool = true // true jak i false piszemy z małej litery
+console.log(bool)
