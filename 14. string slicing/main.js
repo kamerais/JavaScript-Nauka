@@ -12,6 +12,7 @@ let lastName = fullName.slice(4,8); // lub poprostu .slice(4) samo dopisze konie
 console.log(lastName); //output: rais
 
 let firstChar = fullName.slice(0,1);
-console.log(firstChar);
+console.log(firstChar); //output: k
 
 let lastChar = fullName.slice(-1); //używając wartości mniejszych od 0 idzie się od końca do początku
+console.log(lastChar); // output: s
