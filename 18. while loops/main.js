@@ -8,5 +8,13 @@ while (username ===""){ // warunek tutaj jest stale prawdziwy, dlatego wchodząc
                         // no chyba, że pamięci zabraknie i program sam się zatrzyma
     console.log("Enter your username");
 }
-console.log(`Hello ${username}`)
+console.log(`Hello ${username}`);
 */
+
+// Przykład programu do sprawdzania czy użytkownik nie zostawił wolnego pola wpisaniu nickname
+
+while(username === ""){ //pętla nie skończy się dopóki użytkownik nie poda jakiejś wartości do pola tekstowego, które mu wyskakuje
+    username = window.prompt("Enter your username: ");
+}
+// input: kamerais
+console.log(`Hello ${username}`); // output: Hello kamerais
