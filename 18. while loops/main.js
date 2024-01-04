@@ -48,7 +48,7 @@ let password;
 while(!isLoggedIn){
     username = window.prompt("Enter your username: ");
     password = window.prompt("Enter your password: ");
-    if(username === "myUsername" && password == "myPassword"){
+    if(username === "myUsername" && password === "myPassword"){
         isLoggedIn = true;
         console.log(`Welcome ${username}`);
     }
@@ -61,7 +61,7 @@ while(!isLoggedIn){
 do{
     username = window.prompt("Enter your username: ");
     password = window.prompt("Enter your password: ");
-    if(username === "myUsername" && password == "myPassword"){
+    if(username === "myUsername" && password === "myPassword"){
         isLoggedIn = true;
         console.log(`Welcome ${username}`);
     }
