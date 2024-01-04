@@ -29,3 +29,16 @@ Zmienia wartość zdania z np. prawda --> fałsz i vice versa
 np. 2 == 2 && !(2 == 2) --?
     (prawda) i (nieprawda [czyli fałsz]) --> fałsz
 */
+
+const temp = 200;
+
+// bez operatorów logicznych
+if(temp > 0){ //program zatrzymuje się tutaj i nie dochodzi do else
+    console.log("The weather is GOOD");
+}
+else if(temp <= 30){
+    console.log("The weather is GOOD");
+}
+else{
+    console.log("The weather is BAD")
+}
