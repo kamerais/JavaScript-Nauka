@@ -17,3 +17,32 @@ for (let i = 10; i >= 0; i--){
     console.log(i);
 }
 console.log("Happy New Year");
+
+/* Definicja break i continue
+    break; - gdy kod się z nim spotka to go zatrzymuje (przydatne przy pętlach)
+    continue; - gdy kod się z nim spotka to pomija wartość, która spełnia pewien warunek i kontynuuje
+*/
+
+// Przykład kodu wypisujący liczby parzyste
+
+for(let i = 0; i <= 10; i++){
+    if(i % 2 == 1){ // jeżeli reszta z dzielenia przez 2 jest równa 1 (czyli liczba jest nieparzysta)
+        continue;
+    }
+    else{
+        console.log(i);
+    }
+}
+
+// Przykład kodu piszącego 5 pierwszych liczb w zakresie od 20 do 40
+
+for(let i = 20; i <= 40;i++){
+    end = 25;
+    if(i === end){
+        console.log(i)
+        break;
+    }
+    else{
+        console.log(i)
+    }
+}
