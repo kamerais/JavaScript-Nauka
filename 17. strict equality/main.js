@@ -1,0 +1,5 @@
+// = assignment operator (operator przypisania)
+// == comparison operator (operator porównania) (porównuje czy wartości są sobie równe)
+// === strict equality operator (operator ścisłej równości) (sprawdza czy wartości i typ danych są takie same)
+// != inequality operator (operator nierówności)
+// !== strict inequality operator (operator ścisłej nierówności)
