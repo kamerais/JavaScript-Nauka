@@ -13,7 +13,8 @@ console.log(`Hello ${username}`);
 
 // Przykład programu do sprawdzania czy użytkownik nie zostawił wolnego pola wpisaniu nickname
 
-while(username === ""){ //pętla nie skończy się dopóki użytkownik nie poda jakiejś wartości do pola tekstowego, które mu wyskakuje
+while(username === "" || username === null){ //pętla nie skończy się dopóki użytkownik nie poda jakiejś wartości do pola tekstowego, które mu wyskakuje
+    //null (No Value), jeżeli użytkownik naciśnie cancel to i tak będzie proszony o wpisanie jego nazwy
     username = window.prompt("Enter your username: ");
 }
 // input: kamerais
