@@ -45,9 +45,19 @@ else{
 }
 */
 // z operatorami logicznymi
+// Przykład z AND(&&)
 if(temp > 0 && temp <= 30){ // 200 > 0 (prawda) && 200 <= 30 (fałsz) --> fałsz
     console.log("The weather is GOOD");
 }
 else{ // program zatrzymuje się tutaj
-    console.log("The weather is BAD")
+    console.log("The weather is BAD");
 }
+// Przykłąd z OR(||)
+if(temp <= 0 || temp > 30){ // 200 <= 0 (fałsz) || 200 > 30 (prawda) --> prawda
+    // program zatrzymuje się tutaj
+    console.log("The weather is BAD");
+}
+else{
+    console.log("The weather is GOOD");
+}
+
