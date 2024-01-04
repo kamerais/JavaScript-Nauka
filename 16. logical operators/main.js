@@ -33,6 +33,7 @@ np. 2 == 2 && !(2 == 2) --?
 const temp = 200;
 
 // bez operatorów logicznych
+/*
 if(temp > 0){ //program zatrzymuje się tutaj i nie dochodzi do else
     console.log("The weather is GOOD");
 }
@@ -40,5 +41,13 @@ else if(temp <= 30){
     console.log("The weather is GOOD");
 }
 else{
+    console.log("The weather is BAD")
+}
+*/
+// z operatorami logicznymi
+if(temp > 0 && temp <= 30){ // 200 > 0 (prawda) && 200 <= 30 (fałsz) --> fałsz
+    console.log("The weather is GOOD");
+}
+else{ // program zatrzymuje się tutaj
     console.log("The weather is BAD")
 }
