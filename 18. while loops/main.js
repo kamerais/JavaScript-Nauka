@@ -1,0 +1,1 @@
+// while loop (pętla) = powtarza kod tyle raz ile razy DOPÓKI spełnia warunki
