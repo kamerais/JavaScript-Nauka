@@ -26,5 +26,31 @@ function add(x,y){ // tworzę funkcję, która dodaje do siebie dwie wartości
     return result; // zwracam wartość sumy
     
 }
+function substract(x,y){
+    return x - y;
+}
+
+function multiply(x,y){
+    return x * y;
+}
+
+function divide(x,y){
+    return x / y;
+}
+
+function isEven(number){
+    return number % 2 === 0 ? true : false;
+}
+
+function isValidEmail(email){
+    return email.includes("@") ? true : false;
+}
+
 let answer = add(2,3); // tworzę zmienną, która będzie przechowywać to co funkcja zwraca
-console.log(answer) // output: 5
+console.log(answer); // output: 5
+//lub
+console.log(substract(3,2)); // output: 1
+console.log(multiply(3,2)); // output: 6
+console.log(divide(3,2)); // output: 1.5
+console.log(isEven(2)); // output: true
+console.log(isValidEmail("kamerais@koper.com")); // output: true
