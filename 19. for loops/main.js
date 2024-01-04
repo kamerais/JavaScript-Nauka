@@ -10,3 +10,10 @@ for(let i = 0; i <= 2; i++){
 for (let i = 1; i <= 10; i++){
     console.log(i);
 }
+
+// Przykład kodu wypisującego cyfry od 10 do 0
+
+for (let i = 10; i >= 0; i--){
+    console.log(i);
+}
+console.log("Happy New Year");
