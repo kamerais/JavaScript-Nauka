@@ -24,3 +24,11 @@ let lastName2 = fullName2.slice(fullName2.indexOf(" ")+1); // +1 dlatego, że be
 
 console.log(firstName2); //output: Adam
 console.log(lastName2); //output: Stankiewicz
+
+const email = "kamerais123@gmail.com";
+
+let username = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@")+1)
+
+console.log(username) // output: kamerais123
+console.log(extension) // output: gmail.com
