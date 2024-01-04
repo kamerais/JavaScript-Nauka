@@ -60,4 +60,23 @@ if(temp <= 0 || temp > 30){ // 200 <= 0 (fałsz) || 200 > 30 (prawda) --> prawda
 else{
     console.log("The weather is GOOD");
 }
+// Przykład NOT(!)
+
+const isSunny = true;
+// Tutaj bez operatora not
+if(isSunny){ // isSunny jest prawdziwe
+    // program zatrzymuje się tutaj
+    console.log("It is Sunny");
+}
+else{
+    console.log("It is CLOUDY");
+}
+// Tutaj z operatorem not
+if(!(isSunny)){ // isSunny jest nieprawdziwe(fałszywe)
+    
+    console.log("It is Sunny");
+}
+else{ // program zatrzymuje się tutaj
+    console.log("It is CLOUDY");
+}
 
