@@ -1,0 +1,1 @@
+// for loop = wykonuje jakiś kod limitowaną ilość razy, kiedy while loop może być nieskończone
