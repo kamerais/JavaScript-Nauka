@@ -16,3 +16,11 @@ console.log(firstChar); //output: k
 
 let lastChar = fullName.slice(-1); //używając wartości mniejszych od 0 idzie się od końca do początku
 console.log(lastChar); // output: s
+
+const fullName2 = "Adam Stankiewicz";
+// Jak znaleźć imie i nazwisko?
+let firstName2 = fullName2.slice(0,fullName2.indexOf(" "));
+let lastName2 = fullName2.slice(fullName2.indexOf(" ")+1); // +1 dlatego, że bez tego doda spację na początek
+
+console.log(firstName2); //output: Adam
+console.log(lastName2); //output: Stankiewicz
