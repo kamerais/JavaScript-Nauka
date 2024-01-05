@@ -1,0 +1,1 @@
+// array = zmienna w formie struktury, która przechowuje więcej niż 1 wartość
