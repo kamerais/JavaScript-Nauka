@@ -48,3 +48,23 @@ console.log(result); // output: 6
 
 result = 6 / 2 ** (2 + 5); //najpierw robię działanie w nawiasie, potem potęguję, a na końcu dzielę
 console.log(result) // output: 0.046875
+/*
+  Bodmas vs Pemdas                                                                                  
+  Bodmas (B - Brackets, O - Order of powers, D - Division, M - Multiplication, A - Addition, and S - Subtraction) 
+  ustala kolejność:
+  1) nawiasy
+  2) pierwiastkowanie 
+  3) dzielenie
+  4) mnożenie
+  5) dodawanie
+  6) odejmowanie
+
+  Pemdas (P - Parenthesis E - Exponents M - Multiplying D - Dividing A - Adding S - Subtracting)
+  ustala kolejność:
+  1) nawiasy
+  2) potęgowanie
+  3) mnożenie
+  4) dzielenie
+  5) dodawanie
+  6) odejmowanie
+*/
