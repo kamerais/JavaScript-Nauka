@@ -33,13 +33,13 @@ console.log(typeof letters); //output: string
 
 let fruits = ["apple", "orange", "banana"];
 
-console.log(`To jest tablica fruits. Jej elementy ${fruits}`); // output: To jest tablica fruits. Jej elementy ["apple", "orange", "banana"]
+console.log(`To jest tablica fruits. Jej elementy [${fruits}]`); // output: To jest tablica fruits. Jej elementy ["apple", "orange", "banana"]
 
 // teraz chcę te same elementy z tablicy fruits do nowej tablicy
 
 let newFruits = [...fruits];
 
-console.log(`To jest tablica newFruits. Jej elementy ${newFruits}`); // output: To jest tablica newFruits. Jej elementy ["apple", "orange", "banana"]
+console.log(`To jest tablica newFruits. Jej elementy [${newFruits}]`); // output: To jest tablica newFruits. Jej elementy ["apple", "orange", "banana"]
 
 // mogę tak samo zrobić z dodatkowymi tablicami, aby upakować je w jedną tablicę
 
@@ -47,5 +47,5 @@ let vegetables = ["carrots", "celery", "potatoes"];
 
 let food = [...fruits, ...vegetables];
 
-console.log(`To jest tablica newFruits. Jej elementy ${food}`); // output: To jest tablica newFruits. Jej elementy
+console.log(`To jest tablica newFruits. Jej elementy [${food}]`); // output: To jest tablica newFruits. Jej elementy
 //                                                              ["apple", "orange", "banana", "carrots", "celery", "potatoes"]
