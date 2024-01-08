@@ -5,10 +5,10 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     const lowercaseChars ="abcdefghijklmnopqrstuvwxyz";
     const uppercaseChars = lowercaseChars.toUpperCase();
     const numberCharts = "0123456789";
-    const symbolCharts = "!@#$%^&*()-_=+/"
+    const symbolCharts = "!@#$%^&*()-_=+/";
 
     let allowedChars = "";
-    let password = ""
+    let password = "";
 
     allowedChars += includeLowercase ? lowercaseChars : "";
     allowedChars += includeUppercase ? uppercaseChars : "";
@@ -40,4 +40,4 @@ const password = generatePassword(passwordLength,
                                   includeUppercase,
                                   includeNumbers,
                                   includeSymbols);
-console.log(`Generated password: ${password}`)
+console.log(`Generated password: ${password}`);
