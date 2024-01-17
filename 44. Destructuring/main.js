@@ -81,3 +81,39 @@ console.log(lastName); // output: Star
 console.log(age); // output: 34
 console.log(job); // output: unemployed (gdy nie wartość defualtowa to undefined)
 */
+// -------- Przykład  5 ----------
+// Destrukturyzuj w parametrach funkcji
+
+function displayPerson({firstName, lastName, age, job}){
+    console.log(`name: ${firstName} ${lastName}`);
+    console.log(`age: ${age}`);
+    console.log(`job: ${job}`);
+}
+const person1 ={
+    firstName: "SpongeBob",
+    lastName: "SquarePants",
+    age: 30,
+    job: "Fry Cook",
+}
+
+const person2 ={
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 34,
+}
+// Przykład dla person1
+displayPerson(person1);
+/*
+    Output:
+    name: SpongeBob SquarePants
+    age: 30
+    job: Fry Cook
+*/
+//Przykład dla person 2
+displayPerson(person2);
+/*
+    Output:
+    name: Patrick Star
+    age: 34
+    job: undefined (jakbym ustawił defualtową wartość dla job="unmployed" byłoby unmployed)
+*/
