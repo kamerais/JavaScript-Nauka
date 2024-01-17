@@ -21,11 +21,11 @@ const person2 ={
     lastName: "Star",
     age: 42,
     isEmployed: false,
-    sayHello: () => {console.log("Hi I'm Patrick...")},
+    sayHello: () => {console.log("Hi I'm Patrick...")}, // bez różnicy czy dasz function expression czy arrow function
 }
 
 console.log(person2.firstName); // output: Patrick
 console.log(person2.lastName); // output: Star
 console.log(person2.age); // output: 42
 console.log(person2.isEmployed); // output: false
-person2.sayHello();
+person2.sayHello(); // output: Hi I'm Patrick...
