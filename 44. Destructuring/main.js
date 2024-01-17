@@ -23,7 +23,7 @@ console.log(b); // output: 1
 
 // -------- Przykład  2 ----------
 // Zamień 2 elementy w tablicy
-
+/*
 const colors = ["red","green","blue","black","white"];
 
 // przed destrukturyzacją
@@ -34,4 +34,16 @@ console.log(colors); // output: ['red', 'green', 'blue', 'black', 'white']
 
 // po destrukturyzacji
 console.log(colors); // output: ['white', 'green', 'blue', 'black', 'red']
+*/
+// -------- Przykład  3 ----------
+// Przypisz elementy z tablicy do zmiennych
+
+const colors = ["red","green","blue","black","white"];
+
+const [firstColor, secondColor, thirdColor, ...extraColors] = colors;
+// używam ... do wyodrębnienia reszty kolorów, którym nic nie przypisuję
+console.log(firstColor); // output: red
+console.log(secondColor); // output: green
+console.log(thirdColor); // output: blue
+console.log(extraColors); // output: ['black', 'white']
 
