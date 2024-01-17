@@ -21,3 +21,17 @@ console.log(b); // output: 2
 console.log(a); // output: 2
 console.log(b); // output: 1
 
+// -------- Przykład  2 ----------
+// Zamień 2 elementy w tablicy
+
+const colors = ["red","green","blue","black","white"];
+
+// przed destrukturyzacją
+console.log(colors); // output: ['red', 'green', 'blue', 'black', 'white']
+
+// chcę zamienić index 0 z ostatnim
+[colors[0],colors[4]] = [colors[4], colors[0]];
+
+// po destrukturyzacji
+console.log(colors); // output: ['white', 'green', 'blue', 'black', 'red']
+
