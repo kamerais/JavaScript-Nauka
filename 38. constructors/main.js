@@ -8,6 +8,7 @@ function Car(make,model,year,color){
     this.model = model;
     this.year = year;
     this.color = color;
+    this.drive = function(){console.log(`You drive the ${this.model}`)}
 }
 
 const car1 = new Car("Ford","Mustang",2024,"red");
@@ -20,3 +21,12 @@ console.log(car1.make); // output: Ford
 console.log(car1.model); // output: Mustang
 console.log(car1.year); // output: 2024
 console.log(car1.color); // output: red
+car1.drive(); // output: You drive the Mustang
+
+const car2 = new Car("Chevrolet","Corvette", 2013, "blue");
+
+console.log(car2.make); // output: Chevrolet
+console.log(car2.model); // output: Corvette
+console.log(car2.year); // output: 2013
+console.log(car2.color); // output: blue
+car2.drive(); // output: You drive the Corvette
