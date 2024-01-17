@@ -47,3 +47,37 @@ console.log(secondColor); // output: green
 console.log(thirdColor); // output: blue
 console.log(extraColors); // output: ['black', 'white']
 
+// -------- Przykład  4 ----------
+// Wydobądź wartości z obiektu
+/*
+const person1 ={
+    firstName: "SpongeBob",
+    lastName: "SquarePants",
+    age: 30,
+    job: "Fry Cook",
+}
+
+const person2 ={
+    firstName: "Patrick",
+    lastName: "Star",
+    age: 34,
+}
+*/
+// Przykład dla person1
+/*
+const {firstName, lastName, age, job} = person1;
+
+console.log(firstName); // output: SpongeBob
+console.log(lastName); // output: SquarePants
+console.log(age); // output: 30
+console.log(job); // output: Fry Cook
+*/
+// Przykład dla person1
+/*
+const {firstName, lastName, age, job="unemployed"} = person2;
+
+console.log(firstName); // output: Patrick
+console.log(lastName); // output: Star
+console.log(age); // output: 34
+console.log(job); // output: unemployed (gdy nie wartość defualtowa to undefined)
+*/
