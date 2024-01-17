@@ -24,3 +24,21 @@ hello2()
 setTimeout(function(){
     console.log("Hello po 3 sekundach");
 },3000); // 3000 ms = 3s
+// Przykład użycia fuction expression przy reduce,map i filter na tablicach
+const numbers = [1,2,3,4,5,6];
+
+const squares = numbers.map(function(element){
+    return Math.pow(element, 2);
+});
+console.log(squares);
+
+const evenNumbers = numbers.filter(function(element){
+    return element % 2 === 0;
+});
+console.log(evenNumbers);
+
+const total = numbers.reduce(function(accumulator,element){
+    return accumulator + element;
+});
+
+console.log(total);
