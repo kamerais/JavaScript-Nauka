@@ -30,15 +30,15 @@ const numbers = [1,2,3,4,5,6];
 const squares = numbers.map(function(element){
     return Math.pow(element, 2);
 });
-console.log(squares);
+console.log(squares); // output: [1, 4, 9, 16, 25, 36]
 
 const evenNumbers = numbers.filter(function(element){
     return element % 2 === 0;
 });
-console.log(evenNumbers);
+console.log(evenNumbers); // output: [2, 4, 6]
 
 const total = numbers.reduce(function(accumulator,element){
     return accumulator + element;
 });
 
-console.log(total);
+console.log(total); // output: 21
